@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				mail: {
+					primary: '#4F46E5', // Indigo for primary actions
+					secondary: '#6366F1', // Lighter indigo for secondary elements
+					accent: '#818CF8', // Light indigo for accents
+					background: '#F5F7FF', // Very light blue for background
+					hover: '#E0E7FF' // Light blue for hover states
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

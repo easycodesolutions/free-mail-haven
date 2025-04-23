@@ -1,73 +1,44 @@
-# Welcome to your Lovable project
 
-## Project info
+# TempMail Haven - Free Temporary Email Service
 
-**URL**: https://lovable.dev/projects/22e0a48e-ae51-4ad8-99ba-87fab82f4433
+A free temporary email web application built with React, TypeScript, and Tailwind CSS. This application allows users to generate temporary email addresses and receive emails without exposing their personal email accounts.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Generate random temporary email addresses
+- View incoming emails in real-time
+- Copy email address to clipboard
+- Auto-refresh inbox every 15 seconds
+- Clean, responsive UI
+- No registration required
+- View HTML and plain text emails
 
-**Use Lovable**
+## How It Works
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/22e0a48e-ae51-4ad8-99ba-87fab82f4433) and start prompting.
+This application uses the free Mail.gw API service to create disposable email addresses. All data is stored in the browser's local storage and deleted when the session ends.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technical Details
 
-**Use your preferred IDE**
+- Built with React and TypeScript
+- Styled with Tailwind CSS and shadcn/ui components
+- Uses browser local storage for session management
+- Fetches emails using the Mail.gw API
+- Responsive design for all screen sizes
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Privacy & Security
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- No personal data is collected
+- Email addresses automatically expire
+- All data is stored locally in your browser
+- No account creation required
 
-Follow these steps:
+## Usage Limitations
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Email addresses are temporary and will expire
+- Can only receive emails, not send them
+- Attachments cannot be downloaded
+- Some email services may block emails to temporary domains
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Disclaimer
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/22e0a48e-ae51-4ad8-99ba-87fab82f4433) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This service is intended for legitimate privacy purposes only. Please do not use it for spam or illegal activities.
